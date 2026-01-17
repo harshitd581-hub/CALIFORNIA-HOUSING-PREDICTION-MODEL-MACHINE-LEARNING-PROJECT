@@ -65,18 +65,18 @@ Libraries:**
 CALIFORNIA-HOUSING-PREDICTION-MODEL-MACHINE-LEARNING-PROJECT
 
  housing.csv # Original dataset
-├── input.csv # Sample input data
-├── input - Copy.csv # Backup input
-├── output.csv # Model predictions
-│
-├── main_old.py # Initial model training script
-├── main BY JOBLIB.py # Optimized script with model persistence
-│
-└── README.md # Project documentation
+ input.csv # Sample input data
+ input - Copy.csv # Backup input
+ output.csv # Model predictions
+
+main_old.py # Initial model training script
+ main BY JOBLIB.py # Optimized script with model persistence
+
+ README.md # Project documentation
 
 
 
----
+
 
 ▶️ How to Run the Project
 
@@ -90,6 +90,8 @@ pip install numpy pandas scikit-learn joblib
 
 Step 3: Run the Model
 python "main BY JOBLIB.py"
+
+
 
 📊 Output
 
